@@ -1,16 +1,19 @@
 import React from "react"
 
-class One extends React.Component{
+class One extends React.Component {
     render() {
-        return (
-         <>
-         <h1>Hello GM</h1>
-         <h1>Have a nice day</h1>
-         </> 
-            );
-      
+      return (
+        <div className="One">
+          <h1>Shopping List for {this.props.name}</h1>
+          <ul>
+            <li>Instagram</li>
+            <li>WhatsApp</li>
+            <li>Facebook</li>
+          </ul>
+        </div>
+      );
     }
-    
-}
+  }
+  
 
 export default One;
