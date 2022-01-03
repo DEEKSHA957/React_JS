@@ -1,12 +1,14 @@
-import React from "react";
-import Lifecycle from "./component/Lifecycle";
-class App extends React.Component {
-  render() {
-    return (
+import React,{Component} from "react";
+import Lifecycle1 from "./Lifecycle1";
+
+
+class App extends Component{
+  render(){
+    return(
       <div>
-        <Lifecycle/>
+        <Lifecycle1/>
       </div>
-    );
+    )
   }
 }
 export default App;
